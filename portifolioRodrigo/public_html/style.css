@@ -1,0 +1,361 @@
+/*Título*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+/*font-family: 'Libre Baskerville', serif;*/
+
+/*Texto*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+/*font-family: 'Raleway', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #EEEEEE;
+}
+
+body h1 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+body li {
+    font-family: 'Raleway', sans-serif;
+}
+
+body p {
+    font-family: 'Raleway', sans-serif;
+}
+
+#fotopc img {
+    border-radius: 100px;
+}
+
+#fotopc {
+    display: block;
+}
+
+#fotocllr {
+    display: none;
+}
+
+header {
+    background-color: #222831;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.50em 1.50em;
+    font-size: 1.50em;
+}
+
+#nome {
+    font-size: 1.75em;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFD369;
+}
+
+#links a {
+    color: #222831;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.50em;
+    padding: 0.50em;
+}
+
+#nomeEmail p {
+    padding-bottom: 1.25em;
+    text-align: center;
+}
+
+#email {
+    margin-bottom: 1em;
+}
+#infos {
+    text-align: center;
+}
+
+#independencia {
+    background-color: #393E46;
+    font-size: 1.50em;
+    margin: 1.50em 0.50em;
+    border-radius: 35px;
+    padding: 1em 1em 1em 5em;
+    color: #ffffff;
+    letter-spacing: 0.08em;
+}
+#independencia h1 {
+    text-align: center;
+    padding-bottom: 2em;
+}
+#independencia p{
+    padding-bottom: 1.25em;
+}
+#independencia li {
+    padding-bottom: 1.25em;
+}
+#independencia ul li {
+    list-style-image: url(imagens/flecha.png);
+}
+#independencia a{
+    color: #ffffff;
+}
+
+#trocaCores {
+    background-color: #393E46;
+    font-size: 1.50em;
+    margin: 1.50em 0.50em;
+    border-radius: 35px;
+    padding: 1em 1em 1em 5em;
+    color: #ffffff;
+    letter-spacing: 0.08em;
+}
+#trocaCores h1 {
+    text-align: center;
+    padding-bottom: 2em;
+}
+#trocaCores p{
+    padding-bottom: 1.25em;
+}
+#trocaCores li {
+    padding-bottom: 1.25em;
+}
+#trocaCores ul li {
+    list-style-image: url(imagens/flecha.png);
+}
+#trocaCores a{
+    color: #ffffff;
+}
+
+#cliente {
+    background-color: #393E46;
+    font-size: 1.50em;
+    margin: 1.50em 0.50em;
+    border-radius: 35px;
+    padding: 1em 1em 1em 5em;
+    color: #ffffff;
+    letter-spacing: 0.08em;
+}
+#cliente h1 {
+    text-align: center;
+    padding-bottom: 2em;
+}
+#cliente p{
+    padding-bottom: 1.25em;
+}
+#cliente li {
+    padding-bottom: 1.25em;
+}
+#cliente ul li {
+    list-style-image: url(imagens/flecha.png);
+}
+#cliente a{
+    color: #ffffff;
+}
+
+#curriculo {
+    background-color: #393E46;
+    font-size: 1.50em;
+    margin: 1.50em 0.50em;
+    border-radius: 35px;
+    padding: 1em 1em 1em 5em;
+    color: #ffffff;
+    letter-spacing: 0.08em;
+}
+#curriculo h1 {
+    text-align: center;
+    padding-bottom: 2em;
+}
+#curriculo p{
+    padding-bottom: 1.25em;
+}
+#curriculo li {
+    padding-bottom: 1.25em;
+}
+#curriculo ul li {
+    list-style-image: url(imagens/flecha.png);
+}
+#curriculo a{
+    color: #ffffff;
+}
+
+#lojaSkate {
+    background-color: #393E46;
+    font-size: 1.50em;
+    margin: 1.50em 0.50em;
+    border-radius: 35px;
+    padding: 1em 1em 1em 5em;
+    color: #ffffff;
+    letter-spacing: 0.08em;
+}
+#lojaSkate h1 {
+    text-align: center;
+    padding-bottom: 2em;
+}
+#lojaSkate p{
+    padding-bottom: 1.25em;
+}
+#lojaSkate li {
+    padding-bottom: 1.25em;
+}
+#lojaSkate ul li {
+    list-style-image: url(imagens/flecha.png);
+}
+#lojaSkate a{
+    color: #ffffff;
+}
+
+#topOp {
+    background-color: #393E46;
+    font-size: 1.50em;
+    margin: 1.50em 0.50em;
+    border-radius: 35px;
+    padding: 1em 1em 1em 5em;
+    color: #ffffff;
+    letter-spacing: 0.08em;
+}
+#topOp h1 {
+    text-align: center;
+    padding-bottom: 2em;
+}
+#topOp p{
+    padding-bottom: 1.25em;
+}
+#topOp li {
+    padding-bottom: 1.25em;
+}
+#topOp ul li {
+    list-style-image: url(imagens/flecha.png);
+}
+#topOp a{
+    color: #ffffff;
+}
+
+footer {
+    background-color: #222831;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.50em;
+    font-size: 1.50em;
+}
+
+#data {
+    text-align: center;
+}
+
+/*Autor: Ian Lunn @IanLunn*/
+.item {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.item:hover,
+.item:focus,
+.item:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*Fim hover Ian Lunn*/
+
+@media (max-width: 500px) {
+    header {
+        flex-direction: column;
+        font-size: 1.25em;
+    }
+
+    #fotopc {
+        display: none;
+    }
+
+    #fotocllr {
+        display: block;
+    }
+
+    #links {
+        flex-direction: column;
+    }
+
+    #endereco {
+        padding-top: 0.50em;
+    }
+
+    #independencia {
+        font-size: 1em;
+    }
+
+    #independencia h1 {
+        padding: 1em 1em 1em 0em;
+    }
+
+    #trocaCores {
+        font-size: 1em;
+    }
+
+    #trocaCores h1 {
+        padding: 1em 1em 1em 0em;
+    }
+
+    #cliente {
+        font-size: 1em;
+    }
+
+    #curriculo {
+        font-size: 1em;
+    }
+
+    #curriculo h1 {
+        padding: 1em 1em 1em 0em;
+    }
+
+    #lojaSkate{
+        font-size: 1em;
+    }
+
+    #lojaSkate h1 {
+        padding: 1em 1em 1em 0em;
+    }
+
+    #topOp{
+        font-size: 1em;
+    }
+
+    #topOp h1 {
+        padding: 1em 1em 1em 0em;
+    }
+
+    footer {
+        flex-direction: column;
+        font-size: 1.25em;
+    }
+
+    #data {
+        padding: 1em 0em;
+    }
+}
